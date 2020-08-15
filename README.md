@@ -1,5 +1,5 @@
 # :bookmark: Utilities
-by StrawberrySunset
+by :strawberry: StrawberrySunset
 
 
 ## Javascript
