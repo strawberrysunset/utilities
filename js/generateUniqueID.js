@@ -1,3 +1,5 @@
+// Create a unique ID.
+
 function* infiniteIntegers() {
   let i = 0;
   while (true) {
