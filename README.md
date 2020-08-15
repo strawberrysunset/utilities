@@ -16,7 +16,7 @@ by :strawberry: StrawberrySunset
 | -----------           | ----------- |
 | useFetch              | Hook for remote data fetching. |
 | useWindowDimensions   | Get X and Y dimensions of browser window. |
-| useScrollPosition     | Get current Y position of window top. |
+| useScrollPosition     | Get current Y position of page scroll. |
 
 
 
