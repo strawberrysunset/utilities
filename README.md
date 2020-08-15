@@ -5,7 +5,7 @@ by :strawberry: StrawberrySunset
 ## Javascript
 | Name                  | Description |
 | -----------           | ----------- |
-| [generateUniqueID](https://github.com/strawberrysunset/utilities/blob/master/js/generateUniqueID.js) | Generate a unique ID such as `uniqueID341`. Ideal for key assignment. |
+| [generateUniqueID](https://github.com/strawberrysunset/utilities/blob/master/js/generateUniqueID.js) | Generate a unique ID, i.e. `uniqueID341`. Ideal for key assignment. |
 | createInfiniteArrayIterator   |  |
 
 
