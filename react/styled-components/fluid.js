@@ -1,3 +1,5 @@
+import { stripUnit } from './stripUnit'
+
 export const fluid = (variable, min, max, bkptMin, bkptMax) => {
 
     if (!variable) {
