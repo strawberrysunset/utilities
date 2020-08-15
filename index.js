@@ -1,1 +1,1 @@
-export * from "./js/generateUniqueID"
+export * from "./javascript"
