@@ -1,1 +1,2 @@
-export { generateUniqueID } from "./javascript"
+export * from './javascript'
+export * from './react
