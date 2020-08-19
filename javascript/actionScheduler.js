@@ -1,5 +1,5 @@
 // Repeat an action for the given interval.
-export const actionScheduler (action, initialInterval) {
+export const actionScheduler = (action, initialInterval) => {
 
     let interval = initialInterval;  
     let stopped = true;
