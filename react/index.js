@@ -1,2 +1,2 @@
 export * from './createReducer'
-export * from './styled-components/reset'
+export * from './styled-components'
