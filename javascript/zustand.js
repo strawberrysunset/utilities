@@ -1,6 +1,6 @@
 // Logging and immer wrapper around zustand stores.
 
-import createZunstandStoreHook from 'zustand'
+import createZustandStoreHook from 'zustand'
 import createZustandStore from 'zustand/vanilla'
 import produce from 'immer'
 
