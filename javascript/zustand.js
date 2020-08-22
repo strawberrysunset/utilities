@@ -15,4 +15,4 @@ const log = config => (set, get, api) => config(args => {
 const immer = config => (set, get, api) => config(fn => set(produce(fn)), get, api)
 
 export const createStore = (children) => createStore(log(immer(children)))
-export const createStoreHook
+export { createStoreHook } 
