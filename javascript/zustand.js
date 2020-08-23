@@ -1,8 +1,9 @@
 // Logging and immer wrapper around zustand stores.
 
-import createZustandStoreHook from 'zustand'
-import createZustandStore from 'zustand/vanilla'
-import produce from 'immer'
+import createk from 'zustand'
+import produce, {enableMapSet} from 'immer'
+
+enableMapSet(); // Required for using js maps with immer.
 
 // Log every time state is changed
 const log = config => (set, get, api) => config(args => {
@@ -14,5 +15,5 @@ const log = config => (set, get, api) => config(args => {
 // Turn the set method into an immer proxy
 const immer = config => (set, get, api) => config(fn => set(produce(fn)), get, api)
 
-export const createStore = (children) => createZustandStore(log(immer(children)))
-export const createStoreHook = createZustandStoreHook
+export const createStore = (children) => create(log(immer(children)))
+
