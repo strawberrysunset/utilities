@@ -1,6 +1,6 @@
 // Logging and immer wrapper around zustand stores.
 
-import createk from 'zustand'
+import create from 'zustand'
 import produce, {enableMapSet} from 'immer'
 
 enableMapSet(); // Required for using js maps with immer.
