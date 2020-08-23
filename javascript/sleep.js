@@ -1,3 +1,3 @@
-export cont sleep = (s) => {
-  return new Promise(resolve => setTimeout(resolve, s * 1000 ));
+export const sleep = (durationSeconds) => {
+  return new Promise(resolve => setTimeout(resolve, durationSeconds * 1000 ));
 }
