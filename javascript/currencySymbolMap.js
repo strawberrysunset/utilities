@@ -26,7 +26,7 @@ export default {
   'BYR': 'Br',
   'BYN': 'Br',
   'BZD': 'BZ$',
-  'CAD': '$',
+  'CAD': '$C',
   'CDF': 'FC',
   'CHF': 'CHF',
   'CLP': '$',
