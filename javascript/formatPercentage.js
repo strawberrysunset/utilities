@@ -1,3 +1,3 @@
-export const formatPercentage = (value) => {
+module.exports = (value) => {
   return value.toFixed(2) + '%'
 }

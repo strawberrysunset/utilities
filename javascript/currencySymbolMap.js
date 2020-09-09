@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   'AED': 'د.إ',
   'AFN': '؋',
   'ALL': 'L',

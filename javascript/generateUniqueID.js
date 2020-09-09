@@ -9,6 +9,6 @@ function* infiniteIntegers() {
 }
 
 const generator = infiniteIntegers();
-export const generateUniqueID = () => generator.next().value;
+module.exports = () => generator.next().value;
 
 
