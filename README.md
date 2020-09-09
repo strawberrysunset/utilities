@@ -1,4 +1,4 @@
-🧰 # Utilities
+# Utilities 🧰
 by :strawberry: StrawberrySunset
 
 
