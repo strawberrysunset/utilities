@@ -4,7 +4,6 @@
 module.exports = (date, offset = {}) => {
   if (!date) throw new Error('No date object specified')
   if (typeof date !== "object") throw new Error('Date must be a date object.')
-  if (!offset) console.log('No offset was specified.')
 
   // Create a copy to prevent modifying the original date object.
   const dateCopy = new Date(date.getTime()) 
