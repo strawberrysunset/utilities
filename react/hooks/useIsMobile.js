@@ -1,8 +1,8 @@
-import {useWindowDimensions} from '../hooks'
+import {useWindowDimensions} from './useWindowDimensions'
 
 export const useIsMobile = (breakpoint) => {
 
-    const {x : width} = useWindowDimensions()
+    const {width} = useWindowDimensions()
 
     return width <= breakpoint
 }
