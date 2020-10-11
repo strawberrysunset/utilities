@@ -4,7 +4,7 @@ function* infiniteIntegers() {
   let i = 0;
   while (true) {
     i++;
-    yield 'uniqueID_' + parseFloat(Math.floor(Math.random() * 1E12))
+    yield 'uniqueID_' + Math.floor(Math.random() * 1E12).toString()
   }
 }
 
