@@ -1,3 +1,3 @@
 module.exports = (value) => {
-  return value.toFixed(2) + '%'
+  return ((children >= 0) && '+') + value.toFixed(2) + '%'
 }
